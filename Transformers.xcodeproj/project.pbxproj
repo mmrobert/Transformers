@@ -3,27 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31F7CB789009F41D18BED28B /* Pods_TransformersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FC3EA19E08AEADB4C4D38B /* Pods_TransformersTests.framework */; };
+		9B5C4836259A4A2700C98662 /* WarResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C4835259A4A2700C98662 /* WarResult.swift */; };
+		9B5C4840259A6EDB00C98662 /* CreateOrUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C483F259A6EDB00C98662 /* CreateOrUpdate.swift */; };
+		9B5C4845259A6FBA00C98662 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C4844259A6FBA00C98662 /* Extensions.swift */; };
+		9B5C484B259A702900C98662 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C484A259A702900C98662 /* ViewModifiers.swift */; };
+		9B7AC2B5259ABD78006A9861 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AC2B4259ABD78006A9861 /* MockNetworkService.swift */; };
+		9B7AC2C7259ADDBE006A9861 /* BattleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7AC2C6259ADDBE006A9861 /* BattleTests.swift */; };
 		9BAAFAC0259791B900128D2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFABF259791B900128D2C /* AppDelegate.swift */; };
 		9BAAFAC2259791B900128D2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFAC1259791B900128D2C /* SceneDelegate.swift */; };
-		9BAAFAC4259791B900128D2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFAC3259791B900128D2C /* ContentView.swift */; };
+		9BAAFAC4259791B900128D2C /* MainEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFAC3259791B900128D2C /* MainEntryView.swift */; };
 		9BAAFAC6259791BB00128D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAFAC5259791BB00128D2C /* Assets.xcassets */; };
 		9BAAFAC9259791BB00128D2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAFAC8259791BB00128D2C /* Preview Assets.xcassets */; };
 		9BAAFACC259791BB00128D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAFACA259791BB00128D2C /* LaunchScreen.storyboard */; };
+		9BAAFADB259791F700128D2C /* MockNetworkServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFADA259791F700128D2C /* MockNetworkServiceTests.swift */; };
+		9BAAFAE725979C1300128D2C /* NetworkAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFAE625979C1300128D2C /* NetworkAPIs.swift */; };
+		9BAAFAEF25979D1800128D2C /* NetworkRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFAEE25979D1800128D2C /* NetworkRequestError.swift */; };
+		9BAAFAF52597C6AE00128D2C /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFAF42597C6AE00128D2C /* NetworkService.swift */; };
+		9BAAFAF92597C7D700128D2C /* DataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFAF82597C7D700128D2C /* DataCenter.swift */; };
+		9BAAFAFD2597DC1E00128D2C /* TransformerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFAFC2597DC1E00128D2C /* TransformerDataModel.swift */; };
+		9BAAFB0325985A0B00128D2C /* TransformersListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFB0225985A0B00128D2C /* TransformersListDataModel.swift */; };
+		9BAAFB082599052B00128D2C /* TransformerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFB072599052B00128D2C /* TransformerViewModel.swift */; };
+		9BAAFB0E259909EB00128D2C /* TransformersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFB0D259909EA00128D2C /* TransformersListViewModel.swift */; };
+		9BAAFB1B259918A900128D2C /* TransformerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFB1A259918A900128D2C /* TransformerCellView.swift */; };
+		9BAAFB1F25991AD200128D2C /* TransformerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAAFB1E25991AD200128D2C /* TransformerDetailView.swift */; };
+		B9F0F0AC45A52F08E9982DE8 /* Pods_Transformers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6445DCBBEEC02D6A04DD7CD /* Pods_Transformers.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9BAAFADD259791F700128D2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BAAFAB4259791B900128D2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BAAFABB259791B900128D2C;
+			remoteInfo = Transformers;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9B5C4835259A4A2700C98662 /* WarResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarResult.swift; sourceTree = "<group>"; };
+		9B5C483F259A6EDB00C98662 /* CreateOrUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrUpdate.swift; sourceTree = "<group>"; };
+		9B5C4844259A6FBA00C98662 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9B5C484A259A702900C98662 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
+		9B7AC2B4259ABD78006A9861 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
+		9B7AC2C6259ADDBE006A9861 /* BattleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleTests.swift; sourceTree = "<group>"; };
 		9BAAFABC259791B900128D2C /* Transformers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transformers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAAFABF259791B900128D2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BAAFAC1259791B900128D2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9BAAFAC3259791B900128D2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9BAAFAC3259791B900128D2C /* MainEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainEntryView.swift; sourceTree = "<group>"; };
 		9BAAFAC5259791BB00128D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BAAFAC8259791BB00128D2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BAAFACB259791BB00128D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BAAFACD259791BB00128D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAAFAD8259791F700128D2C /* TransformersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransformersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAAFADA259791F700128D2C /* MockNetworkServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkServiceTests.swift; sourceTree = "<group>"; };
+		9BAAFADC259791F700128D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAAFAE625979C1300128D2C /* NetworkAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAPIs.swift; sourceTree = "<group>"; };
+		9BAAFAEE25979D1800128D2C /* NetworkRequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestError.swift; sourceTree = "<group>"; };
+		9BAAFAF42597C6AE00128D2C /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9BAAFAF82597C7D700128D2C /* DataCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCenter.swift; sourceTree = "<group>"; };
+		9BAAFAFC2597DC1E00128D2C /* TransformerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformerDataModel.swift; sourceTree = "<group>"; };
+		9BAAFB0225985A0B00128D2C /* TransformersListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformersListDataModel.swift; sourceTree = "<group>"; };
+		9BAAFB072599052B00128D2C /* TransformerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformerViewModel.swift; sourceTree = "<group>"; };
+		9BAAFB0D259909EA00128D2C /* TransformersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformersListViewModel.swift; sourceTree = "<group>"; };
+		9BAAFB1A259918A900128D2C /* TransformerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformerCellView.swift; sourceTree = "<group>"; };
+		9BAAFB1E25991AD200128D2C /* TransformerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformerDetailView.swift; sourceTree = "<group>"; };
+		A5E93392841F20059B6579AA /* Pods-Transformers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transformers.release.xcconfig"; path = "Target Support Files/Pods-Transformers/Pods-Transformers.release.xcconfig"; sourceTree = "<group>"; };
+		A6445DCBBEEC02D6A04DD7CD /* Pods_Transformers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Transformers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FC3EA19E08AEADB4C4D38B /* Pods_TransformersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransformersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3BBDC9FE4AB7F558BACEB8 /* Pods-TransformersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransformersTests.release.xcconfig"; path = "Target Support Files/Pods-TransformersTests/Pods-TransformersTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5EF04AA6158C861DC33CA74 /* Pods-TransformersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransformersTests.debug.xcconfig"; path = "Target Support Files/Pods-TransformersTests/Pods-TransformersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EABDC60D9F0A47C6C7FAC7C7 /* Pods-Transformers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transformers.debug.xcconfig"; path = "Target Support Files/Pods-Transformers/Pods-Transformers.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +85,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F0F0AC45A52F08E9982DE8 /* Pods_Transformers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAAFAD5259791F700128D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F7CB789009F41D18BED28B /* Pods_TransformersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CF5D7D116095C3C19ACF107 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EABDC60D9F0A47C6C7FAC7C7 /* Pods-Transformers.debug.xcconfig */,
+				A5E93392841F20059B6579AA /* Pods-Transformers.release.xcconfig */,
+				E5EF04AA6158C861DC33CA74 /* Pods-TransformersTests.debug.xcconfig */,
+				BC3BBDC9FE4AB7F558BACEB8 /* Pods-TransformersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B5C4843259A6F4100C98662 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9B5C4844259A6FBA00C98662 /* Extensions.swift */,
+				9B5C484A259A702900C98662 /* ViewModifiers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		9BAAFAB3259791B900128D2C = {
 			isa = PBXGroup;
 			children = (
 				9BAAFABE259791B900128D2C /* Transformers */,
+				9BAAFAD9259791F700128D2C /* TransformersTests */,
 				9BAAFABD259791B900128D2C /* Products */,
+				1CF5D7D116095C3C19ACF107 /* Pods */,
+				E14FB77C5DC620BF4715D006 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				9BAAFABC259791B900128D2C /* Transformers.app */,
+				9BAAFAD8259791F700128D2C /* TransformersTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,10 +145,13 @@
 			children = (
 				9BAAFABF259791B900128D2C /* AppDelegate.swift */,
 				9BAAFAC1259791B900128D2C /* SceneDelegate.swift */,
-				9BAAFAC3259791B900128D2C /* ContentView.swift */,
-				9BAAFAC5259791BB00128D2C /* Assets.xcassets */,
-				9BAAFACA259791BB00128D2C /* LaunchScreen.storyboard */,
-				9BAAFACD259791BB00128D2C /* Info.plist */,
+				9BAAFB11259914BB00128D2C /* Views */,
+				9BAAFB06259904F400128D2C /* View Models */,
+				9BAAFAED25979C5100128D2C /* Data Models */,
+				9BAAFAEC25979C3E00128D2C /* Data Center */,
+				9B5C4843259A6F4100C98662 /* Helpers */,
+				9BAAFAE525979BD100128D2C /* Network Services */,
+				9BAAFAE425979B7000128D2C /* Supporting Files */,
 				9BAAFAC7259791BB00128D2C /* Preview Content */,
 			);
 			path = Transformers;
@@ -75,6 +165,84 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9BAAFAD9259791F700128D2C /* TransformersTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BAAFADA259791F700128D2C /* MockNetworkServiceTests.swift */,
+				9B7AC2C6259ADDBE006A9861 /* BattleTests.swift */,
+				9BAAFADC259791F700128D2C /* Info.plist */,
+			);
+			path = TransformersTests;
+			sourceTree = "<group>";
+		};
+		9BAAFAE425979B7000128D2C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BAAFAC5259791BB00128D2C /* Assets.xcassets */,
+				9BAAFACA259791BB00128D2C /* LaunchScreen.storyboard */,
+				9BAAFACD259791BB00128D2C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BAAFAE525979BD100128D2C /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				9BAAFAE625979C1300128D2C /* NetworkAPIs.swift */,
+				9BAAFAF42597C6AE00128D2C /* NetworkService.swift */,
+				9B7AC2B4259ABD78006A9861 /* MockNetworkService.swift */,
+			);
+			path = "Network Services";
+			sourceTree = "<group>";
+		};
+		9BAAFAEC25979C3E00128D2C /* Data Center */ = {
+			isa = PBXGroup;
+			children = (
+				9BAAFAF82597C7D700128D2C /* DataCenter.swift */,
+			);
+			path = "Data Center";
+			sourceTree = "<group>";
+		};
+		9BAAFAED25979C5100128D2C /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BAAFAFC2597DC1E00128D2C /* TransformerDataModel.swift */,
+				9BAAFB0225985A0B00128D2C /* TransformersListDataModel.swift */,
+				9BAAFAEE25979D1800128D2C /* NetworkRequestError.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		9BAAFB06259904F400128D2C /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				9BAAFB072599052B00128D2C /* TransformerViewModel.swift */,
+				9BAAFB0D259909EA00128D2C /* TransformersListViewModel.swift */,
+				9B5C483F259A6EDB00C98662 /* CreateOrUpdate.swift */,
+				9B5C4835259A4A2700C98662 /* WarResult.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		9BAAFB11259914BB00128D2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9BAAFAC3259791B900128D2C /* MainEntryView.swift */,
+				9BAAFB1A259918A900128D2C /* TransformerCellView.swift */,
+				9BAAFB1E25991AD200128D2C /* TransformerDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E14FB77C5DC620BF4715D006 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6445DCBBEEC02D6A04DD7CD /* Pods_Transformers.framework */,
+				B2FC3EA19E08AEADB4C4D38B /* Pods_TransformersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +250,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9BAAFAD0259791BB00128D2C /* Build configuration list for PBXNativeTarget "Transformers" */;
 			buildPhases = (
+				BC5D81D1A4C64F79D1A3233E /* [CP] Check Pods Manifest.lock */,
 				9BAAFAB8259791B900128D2C /* Sources */,
 				9BAAFAB9259791B900128D2C /* Frameworks */,
 				9BAAFABA259791B900128D2C /* Resources */,
+				BC8EE94BDFE7AFA63A8BFE07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -94,6 +264,25 @@
 			productName = Transformers;
 			productReference = 9BAAFABC259791B900128D2C /* Transformers.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9BAAFAD7259791F700128D2C /* TransformersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAAFADF259791F700128D2C /* Build configuration list for PBXNativeTarget "TransformersTests" */;
+			buildPhases = (
+				F54A7AC85486B01A64707A56 /* [CP] Check Pods Manifest.lock */,
+				9BAAFAD4259791F700128D2C /* Sources */,
+				9BAAFAD5259791F700128D2C /* Frameworks */,
+				9BAAFAD6259791F700128D2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BAAFADE259791F700128D2C /* PBXTargetDependency */,
+			);
+			name = TransformersTests;
+			productName = TransformersTests;
+			productReference = 9BAAFAD8259791F700128D2C /* TransformersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -106,6 +295,10 @@
 				TargetAttributes = {
 					9BAAFABB259791B900128D2C = {
 						CreatedOnToolsVersion = 12.1;
+					};
+					9BAAFAD7259791F700128D2C = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 9BAAFABB259791B900128D2C;
 					};
 				};
 			};
@@ -123,6 +316,7 @@
 			projectRoot = "";
 			targets = (
 				9BAAFABB259791B900128D2C /* Transformers */,
+				9BAAFAD7259791F700128D2C /* TransformersTests */,
 			);
 		};
 /* End PBXProject section */
@@ -138,20 +332,123 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9BAAFAD6259791F700128D2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC5D81D1A4C64F79D1A3233E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transformers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8EE94BDFE7AFA63A8BFE07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transformers/Pods-Transformers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Transformers/Pods-Transformers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Transformers/Pods-Transformers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54A7AC85486B01A64707A56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TransformersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9BAAFAB8259791B900128D2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BAAFB1F25991AD200128D2C /* TransformerDetailView.swift in Sources */,
+				9B5C4840259A6EDB00C98662 /* CreateOrUpdate.swift in Sources */,
+				9BAAFB082599052B00128D2C /* TransformerViewModel.swift in Sources */,
 				9BAAFAC0259791B900128D2C /* AppDelegate.swift in Sources */,
+				9BAAFB0325985A0B00128D2C /* TransformersListDataModel.swift in Sources */,
+				9B5C484B259A702900C98662 /* ViewModifiers.swift in Sources */,
+				9B7AC2B5259ABD78006A9861 /* MockNetworkService.swift in Sources */,
 				9BAAFAC2259791B900128D2C /* SceneDelegate.swift in Sources */,
-				9BAAFAC4259791B900128D2C /* ContentView.swift in Sources */,
+				9BAAFB0E259909EB00128D2C /* TransformersListViewModel.swift in Sources */,
+				9BAAFAC4259791B900128D2C /* MainEntryView.swift in Sources */,
+				9BAAFAF92597C7D700128D2C /* DataCenter.swift in Sources */,
+				9BAAFAE725979C1300128D2C /* NetworkAPIs.swift in Sources */,
+				9B5C4836259A4A2700C98662 /* WarResult.swift in Sources */,
+				9B5C4845259A6FBA00C98662 /* Extensions.swift in Sources */,
+				9BAAFAF52597C6AE00128D2C /* NetworkService.swift in Sources */,
+				9BAAFAEF25979D1800128D2C /* NetworkRequestError.swift in Sources */,
+				9BAAFB1B259918A900128D2C /* TransformerCellView.swift in Sources */,
+				9BAAFAFD2597DC1E00128D2C /* TransformerDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAAFAD4259791F700128D2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAAFADB259791F700128D2C /* MockNetworkServiceTests.swift in Sources */,
+				9B7AC2C7259ADDBE006A9861 /* BattleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BAAFADE259791F700128D2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BAAFABB259791B900128D2C /* Transformers */;
+			targetProxy = 9BAAFADD259791F700128D2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9BAAFACA259791BB00128D2C /* LaunchScreen.storyboard */ = {
@@ -283,6 +580,7 @@
 		};
 		9BAAFAD1259791BB00128D2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EABDC60D9F0A47C6C7FAC7C7 /* Pods-Transformers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,6 +589,7 @@
 				DEVELOPMENT_TEAM = B3L9Z83YP6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Transformers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +603,7 @@
 		};
 		9BAAFAD2259791BB00128D2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E93392841F20059B6579AA /* Pods-Transformers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +612,7 @@
 				DEVELOPMENT_TEAM = B3L9Z83YP6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Transformers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,6 +621,48 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BAAFAE0259791F700128D2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EF04AA6158C861DC33CA74 /* Pods-TransformersTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3L9Z83YP6;
+				INFOPLIST_FILE = TransformersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boqiancheng.www.TransformersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transformers.app/Transformers";
+			};
+			name = Debug;
+		};
+		9BAAFAE1259791F700128D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3BBDC9FE4AB7F558BACEB8 /* Pods-TransformersTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B3L9Z83YP6;
+				INFOPLIST_FILE = TransformersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boqiancheng.www.TransformersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transformers.app/Transformers";
 			};
 			name = Release;
 		};
@@ -340,6 +683,15 @@
 			buildConfigurations = (
 				9BAAFAD1259791BB00128D2C /* Debug */,
 				9BAAFAD2259791BB00128D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAAFADF259791F700128D2C /* Build configuration list for PBXNativeTarget "TransformersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAAFAE0259791F700128D2C /* Debug */,
+				9BAAFAE1259791F700128D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

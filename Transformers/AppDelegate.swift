@@ -13,7 +13,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // fetch token if not cached
+        guard let token = UserDefaults.standard.object(forKey: "token") as? String, token.count > 0 else {
+            DataCenter.shared.fetchToken()
+            return true
+        }
         return true
     }
 
