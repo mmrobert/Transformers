@@ -8,4 +8,4 @@
 6. Users could add or update transformer, also delete transformer.
 7. Token is fetched when app launched and cached by UserDefaults.
 8. A button is added to start a "battle", users could start "battles" one after one to finish the "war".
-
+9. Alert is used to show battle result with simple message.
